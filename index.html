@@ -4,9 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Power BI Report</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #F5F5F5;
+            color: #1E3A8A;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        h1 {
+            color: #1E3A8A;
+            margin-bottom: 20px;
+        }
+
+        iframe {
+            border: 1px solid #2A3F73;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+            background: #FFFFFF;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
 </head>
 <body>
-    <h1>Power BI Report</h1>
-    <iframe width="1140" height="541.25" src="https://app.powerbi.com/view?r=eyJrIjoiNzA4YzU0YzUtMTI5Ny00ZWI4LWE4MTQtMjU5YmEwYWExOWI5IiwidCI6IjMxNzIxYzYwLTVhNTAtNGFhNS1iNmY0LTQ5YTRiNWY0M2VlOSJ9" frameborder="0" allowFullScreen="true"></iframe>
+    <div class="container">
+        <h1>Power BI Report</h1>
+        <iframe width="1140" height="541.25" src="https://app.powerbi.com/view?r=eyJrIjoiNzA4YzU0YzUtMTI5Ny00ZWI4LWE4MTQtMjU5YmEwYWExOWI5IiwidCI6IjMxNzIxYzYwLTVhNTAtNGFhNS1iNmY0LTQ5YTRiNWY0M2VlOSJ9" frameborder="0" allowFullScreen="true"></iframe>
+    </div>
 </body>
 </html>
+
