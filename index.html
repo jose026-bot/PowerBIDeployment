@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reporte Power BI de Delitos basados en Noticias de medios digitales en Lima Metropolitana</title>
+    <title>Power BI Report</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -18,15 +18,26 @@
             min-height: 100vh;
         }
 
+        .header {
+            background-color: #1E3A8A;
+            color: #FFFFFF;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            width: 100%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
         h1 {
-            color: #1E3A8A;
-            margin-bottom: 20px;
+            margin: 0;
+            font-size: 2em;
         }
 
         iframe {
             border: 1px solid #2A3F73;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
         }
 
         .container {
@@ -35,14 +46,20 @@
             background: #FFFFFF;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 1140px;
+            margin: 20px auto;
         }
     </style>
 </head>
 <body>
+    <div class="header">
+        <h1>Power BI Report</h1>
+    </div>
     <div class="container">
-        <h1>Reporte Power BI de Delitos basados en Noticias de medios digitales en Lima Metropolitana</h1>
         <iframe width="1140" height="541.25" src="https://app.powerbi.com/view?r=eyJrIjoiNzA4YzU0YzUtMTI5Ny00ZWI4LWE4MTQtMjU5YmEwYWExOWI5IiwidCI6IjMxNzIxYzYwLTVhNTAtNGFhNS1iNmY0LTQ5YTRiNWY0M2VlOSJ9" frameborder="0" allowFullScreen="true"></iframe>
     </div>
 </body>
 </html>
+
 
